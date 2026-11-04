@@ -1,0 +1,196 @@
+/* --- PAGINA --- */
+body {
+    font-family: sans-serif;
+    background-color: #eef2f7;
+    /* Sfondo celeste/grigio chiaro */
+    padding: 20px;
+    color: #222;
+}
+
+h1 {
+    color: #1e3a8a;
+    /* Blu scuro */
+    text-align: center;
+}
+
+h3 {
+    color: #3b82f6;
+    /* Blu più chiaro */
+    text-align: center;
+}
+
+/* --- FILTRI E RICERCA --- */
+div {
+    margin-bottom: 12px;
+}
+
+input,
+select {
+    padding: 8px;
+    border: 1px solid #93c5fd;
+    /* Bordo azzurro */
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+/* --- GRIGLIA CARD --- */
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* --- SINGOLA CARD --- */
+.card {
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    color: #0f172a;
+}
+
+.card-text {
+    color: #059669;
+    /* Verde per far risaltare il testo/categoria */
+}
+
+/* --- LINK VEDI DETTAGLI --- */
+.card a {
+    color: #334155;
+    /* Grigio scuro elegante */
+    text-decoration: underline;
+    /* Sottolineato come un vero link */
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+/* --- PULSANTI --- */
+button {
+    padding: 8px 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.btn-blu {
+    background-color: #2563eb;
+    /* Blu vivace */
+    color: white;
+}
+
+.btn-rosso {
+    background-color: #dc2626;
+    /* Rosso */
+    color: white;
+}
+
+.btn-cuore {
+    background-color: #f1f5f9;
+    /* Grigio chiaro per lo sfondo del cuore */
+    border: 1px solid #cbd5e1;
+}
+
+/* --- TABELLA DI CONFRONTO --- */
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 15px;
+}
+
+/* Bordi e spazio dentro le celle */
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Sfondo scuro per l'intestazione */
+th {
+    background-color: #1e293b;
+    color: white;
+}
+
+.btn-svuota {
+    border: 1px solid rgb(116, 108, 108);
+    border-radius: 0.5rem;
+}
+
+
+/* --- AMBIENTE E CENTRAGGIO --- */
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+    /* Stesso sfondo della HomePage */
+    padding: 20px;
+}
+
+/* Link Torna indietro */
+a {
+    color: #333;
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* --- LA CARD DEL DETTAGLIO --- */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 400px;
+    /* Non la fa allargare troppo */
+    margin: 0 auto;
+    /* La centra nella pagina */
+    text-align: center;
+}
+
+/* Immagine del prodotto */
+.card img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* --- TESTI INTERNI --- */
+.card-body p {
+    margin: 6px 0;
+    color: #333;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #1e3a8a;
+    /* Blu coerente con la HomePage */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #059669;
+    /* Verde per far risaltare la categoria */
+}
+
+/* --- PULSANTE PREFERITI --- */
+button,
+.btn-cuore {
+    padding: 8px 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #eee;
+    font-weight: bold;
+    margin-top: 10px;
+}
