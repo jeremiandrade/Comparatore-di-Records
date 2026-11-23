@@ -1,16 +1,36 @@
-# React + Vite
+# Comparatore di Prodotti
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ho sviluppato questa Single Page Application con **React** come progetto finale del mio percorso di formazione, con l'obiettivo di realizzare uno strumento rapido e intuitivo per esplorare un catalogo prodotti e confrontarne le specifiche tecniche.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funzionalità implementate
 
-## React Compiler
+* **Ricerca e Filtri Dinamici:** Ho integrato una barra di ricerca in tempo reale e un sistema di filtri per categoria per consentire all'utente di individuare facilmente gli articoli.
+  
+* **Ordinamento:** Ho implementato la possibilità di ordinare i risultati del catalogo in ordine alfabetico (A-Z e Z-A).
+  
+* **Confronto Prodotti:** L'utente può selezionare più elementi dal catalogo per visualizzarne le caratteristiche affiancate in una tabella dedicata.
+  
+* **Gestione Preferiti:** Ho aggiunto una funzionalità per salvare i prodotti tra i preferiti, garantendone i dati salvati nel browser tramite `LocalStorage`.
+  
+* **Navigazione Dinamica:** Ho strutturato il routing dell'applicazione per gestire in modo fluido il passaggio tra il catalogo, la pagina di dettaglio del singolo prodotto e la sezione di confronto.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Tecnologie utilizzate
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Frontend:** React, TypeScript, React Router, HTML5, CSS3
+  
+* **Gestione Stato e Dati:** React Hooks, LocalStorage
+  
+* **Strumento di sviluppo:** GitHub
+
+---
+
+## Avvio del progetto in locale
+
+Per eseguire l'applicazione sul proprio computer:
+
+1. **Clonare la repository:**
+   ```bash
