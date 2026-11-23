@@ -34,3 +34,4 @@ Per eseguire l'applicazione sul proprio computer:
 
 1. **Clonare la repository:**
    ```bash
+   git clone https://github.com/jeremiandrade/Comparatore-di-Records.git
